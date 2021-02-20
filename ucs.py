@@ -181,7 +181,7 @@ def ucs(mapSize, startingPoint, maxRockHeight , settlingSite, searchMap):
         #print(queue)
         sorted(queue,key= lambda x:x[2] )
         #print(queue)       
-
+    return "FAIL"
         
 #print(searchMap[2][0])
 print(ucs(mapSize,startingPoint,maxRockHeight,settlingSites[0],searchMap))
